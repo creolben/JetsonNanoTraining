@@ -8,7 +8,7 @@ flip=2
 # cam= cv2.VideoCapture(camSet)
 
 #Or, if you have a WEB cam, uncomment the next line
-cam=cv2.VideoCapture(0,cv2.CAP_V4L2)
+cam=cv2.VideoCapture(0)
 dispW = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
 dispH = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
 BW = int(.25*dispW)
